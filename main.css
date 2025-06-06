@@ -1,0 +1,310 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+}
+
+main{
+	display: flex;
+	flex-flow: rowwrap;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	color: #fff;
+	background-color: #000;
+}
+
+.main-content{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 80vw;
+	height: 90vh;
+	border: 1px solid #fff;
+}
+
+.btn{
+	width: 7vw;
+	height: 5vh;
+	font-size: 1.2rem;
+}
+
+p{
+	font-size: 1.2rem;
+	font-family: serif;
+}
+
+.top-info{
+	display: flex;
+	gap: 15em;
+	width: 50vw;
+	height: 5vh;
+	background-color: ;
+}
+
+.top-info button{
+	margin: 1rem;
+}
+
+.main-info{
+	display: flex;
+	flex-flow: wrap;	
+	width: 60vw;
+	height: 60vh;
+	background-color: ;	
+}
+
+.mid-info{
+	display: flex;
+	flex-flow: wrap;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+	height: 20vh;	
+}
+
+.mid-info h1{
+	width: 50vw;
+	height: 10vh;
+	font-size: 3rem;
+	text-align: center;
+}	
+
+.mid-info button{
+	width: 6vw;
+	height: 8vh;
+	position: absolute;
+	top: 140px;		
+}	
+
+.bottom-info{
+	display: flex;
+	gap: 10em;
+	width: 50vw;
+	height: 2vh;	
+}
+
+.results{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 15vw;
+	height: 20vh;
+
+}
+
+.results input{
+	width: 10vw;
+	height: 8vh;
+	color: #fff;
+	font-size: 1rem;
+	text-align: center;
+	background-color: #000;
+	border: 1px solid #fff;
+	
+}	
+
+.results button{
+	width: 7vw;
+	height: 5vh;		
+}	
+
+.horizontal-line{
+	width: 100vw;
+	height: 5vh;
+	border-bottom: 5px solid #fff;		
+}	
+
+footer{
+	width: 35vw;
+	text-align: center;			
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+.main-content{
+	width: 100vw;
+	height: 100vh;
+	border: 0px;
+}
+
+.btn{
+	width: 30vw;
+	height: 5vh;
+	margin: 0.8rem;
+	font-size: 1rem;
+}
+
+p{
+	font-size: 1.2rem;
+	
+}
+
+.top-info{
+	gap: 5em;
+	width: 100vw;
+	height: 5vh;
+	
+}
+
+.main-info{	
+	width: 100vw;
+	height: 60vh;		
+}
+
+.mid-info{
+	width: 100vw;
+	height: 20vh;	
+}
+
+.mid-info h1{
+	width: 100vw;
+	height: 1vh;
+	font-size: 1.4rem;
+	
+}	
+
+.mid-info button{
+	width: 30vw;
+	height: 8vh;
+	top: 5rem	
+}	
+
+.bottom-info{
+	gap: 5em;
+	width: 100vw;
+	height: 10vh;
+}
+
+.results{
+	width: 60vw;
+	height: 20vh;
+}
+
+.results input{
+	width: 30vw;
+	height: 8vh;
+	text-align: center;
+	font-size: 1rem;
+	background-color: #000;
+}	
+
+.results button{
+	width: 30vw;
+	height: 5vh;		
+}	
+
+.bottom-text{
+	width: 100vw;
+	height: 5vh;
+}
+
+.horizontal-line{
+	width: 100vw;
+	height: 5vh;
+	border-bottom: 5px solid #fff;		
+}
+
+footer{
+	width: 80vw;
+				
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.main-content{
+	width: 100vw;
+	height: 100vh;
+	border: 0px;
+}
+
+.btn{
+	width: 30vw;
+	height: 5vh;
+	margin: 0.8rem;
+	font-size: 2rem;
+}
+
+p{
+	font-size: 2.1rem;
+	
+}
+
+.top-info{
+	gap: 8em;
+	width: 90vw;
+	height: 5vh;
+	
+}
+
+.main-info{	
+	width: 100vw;
+	height: 60vh;		
+}
+
+.mid-info{
+	width: 100vw;
+	height: 20vh;	
+}
+
+.mid-info h1{
+	width: 100vw;
+	height: 2vh;
+	font-size: 3rem;
+	
+}	
+
+.mid-info button{
+	width: 30vw;
+	height: 8vh;
+	top: 9rem;	
+}	
+
+.bottom-info{
+	gap: 8em;
+	width: 100vw;
+	height: 10vh;
+}
+
+.results{
+	width: 80vw;
+	height: 20vh;
+}
+
+.results input{
+	width: 30vw;
+	height: 8vh;
+	text-align: center;
+	font-size: 2rem;
+	background-color: #000;
+}	
+
+.results button{
+	width: 30vw;
+	height: 5vh;
+	font-size: 2rem;		
+}	
+
+.bottom-text{
+	width: 100vw;
+	height: 5vh;
+}
+
+.horizontal-line{
+	width: 100vw;
+	height: 5vh;
+	border-bottom: 5px solid #fff;		
+}
+
+footer{
+	width: 70vw;
+	font-size: 2rem;
+
+				
+}
+
+}
