@@ -60,7 +60,6 @@ function changeColor(bgColor){
 
 	again.addEventListener("click", function(){
 		secretNumber = Math.trunc(Math.random() * 20) + 1;
-		// number.textContent = number.value = secretNumber;
 		totalScore = 20;
 		
 		number.value = 0;
