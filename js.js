@@ -28,7 +28,7 @@ function changeColor(bgColor){
 	const getInputValue = Number(guess.value);
 
 	if (!getInputValue) {
-		displayMsg("No Number!");
+		displayMsg("No Number...!");
 	}
 
 	 else if (getInputValue === secretNumber) {
@@ -44,14 +44,14 @@ function changeColor(bgColor){
 
 
 	else if(getInputValue > secretNumber){
-		displayMsg("Too high!");
+		displayMsg("Too high...!");
 		totalScore--;
 		score.textContent = totalScore;
 	} 
 
 
 	else if(getInputValue < secretNumber){
-		displayMsg("Too low!");
+		displayMsg("Too low...!");
 		totalScore--;
 		score.textContent = totalScore;
 	}	
@@ -65,6 +65,6 @@ function changeColor(bgColor){
 		number.value = 0;
 		guess.textContent = guess.value = "";
 		score.textContent = totalScore;
-		displayMsg("Start guessing!");
+		displayMsg("Start guessing...!");
 		changeColor("#000");	
 	});
